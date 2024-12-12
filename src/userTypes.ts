@@ -1,10 +1,10 @@
-export interface User {
-  user_id: number;
+export type User = {
+
+  document_id: string;
   name: string;
-  email: string;
   username: string;
+  email: string;
   gender: string;
-  password: string;
-  date_created: Date;
-  date_updated: Date;
+  country: string;
+  
 }
